@@ -1,0 +1,201 @@
+# 📘 Bitácora y Cheat Sheet: De Cero a Data Analyst (67 Días · Esquema 6x1)
+
+**Meta:** 200 horas totales (3 horas/día de lunes a sábado · domingos libres)  
+**Horario agendado:** 10:00 a 13:00 (80 min teoría + 15 min pausa + 75 min práctica + 10 min bitácora)  
+**Fecha de inicio:** Lunes 16/11/2026 | **Fecha de cierre:** Lunes 01/02/2027  
+**Activación DataCamp (Día 21):** Miércoles 09/12/2026 *(vence aprox. 09/03/2027 — sobran ~36 días para Bonus DS)*  
+
+---
+
+## ⚙️ 0. Checklist Previo (Día 0 — Antes del Lun 16/11)
+
+- [x] Crear cuenta en GitHub con correo institucional (`.edu.ar`)
+- [x] Solicitar el GitHub Student Developer Pack *(NO activar DataCamp hasta el Mié 09/12)*
+- [x] Crear o actualizar perfil de LinkedIn
+- [x] Instalar Visual Studio Code (VS Code) y Git
+- [x] Instalar Python y extensiones `Python` + `Jupyter` en VS Code
+- [ ] Crear cuenta gratuita en **IBM SkillsBuild**
+- [ ] Crear cuenta gratuita en **Santander Open Academy**
+- [ ] Crear cuenta gratuita en **Cisco Networking Academy**
+- [ ] Crear cuenta gratuita en **Microsoft Learn**
+- [ ] Crear cuentas gratuitas en **Kaggle** y **HackerRank**
+- [ ] Verificar acceso a **Microsoft Excel** de escritorio (con Power Query)
+- [ ] Instalar **Power BI Desktop** (gratis)
+- [ ] Instalar **DB Browser for SQLite** (o DBeaver)
+
+---
+
+## ✅ 1. Control de Avance Día por Día (Calendario 6x1)
+
+### Fase 1: Excel, Limpieza y Power Query (Días 1–10 · 30 h)
+- [ ] **Día 01 (Lun 16/11):** IBM SkillsBuild — *Data Fundamentals* (Módulos 1–3)
+- [ ] **Día 02 (Mar 17/11):** IBM SkillsBuild (Módulo 4 + insignia) + Santander *Excel* (inicio)
+- [ ] **Día 03 (Mié 18/11):** Santander *Excel* (funciones lógicas, texto, `BUSCARV` y `BUSCARX`)
+- [ ] **Día 04 (Jue 19/11):** Santander *Excel* (tablas dinámicas, segmentadores y certificado)
+- [ ] **Día 05 (Vie 20/11):** Práctica libre Kaggle — Reporte *Superstore Sales* en Excel
+- [ ] **Día 06 (Sáb 21/11):** Cisco NetAcad — *Data Analytics Essentials* (Módulos 1–2)
+- [ ] **Día 07 (Lun 23/11):** Cisco NetAcad — *Data Analytics Essentials* (Módulos 3–4)
+- [ ] **Día 08 (Mar 24/11):** YouTube El Tío Tech — Limpieza en Excel + Power Query desde cero
+- [ ] **Día 09 (Mié 25/11):** Power Query avanzado — *Unpivot* y combinar carpeta de archivos
+- [ ] **Día 10 (Jue 26/11):** **Entregable Fase 1:** Limpieza automatizada de dataset sucio con Power Query
+
+### Fase 2: Modelado de Datos y Power BI (Días 11–20 · 30 h)
+- [ ] **Día 11 (Vie 27/11):** MS Learn PL-300 — *Get started & Prepare data* en Power BI
+- [ ] **Día 12 (Sáb 28/11):** MS Learn PL-300 — *Prepare & Model data* (inicio Esquema Estrella)
+- [ ] **Día 13 (Lun 30/11):** MS Learn PL-300 — Relaciones `1:*`, tabla calendario y medidas vs. columnas
+- [ ] **Día 14 (Mar 01/12):** MS Learn PL-300 — DAX: `CALCULATE`, `SUMX`, `AVERAGEX` y `DIVIDE`
+- [ ] **Día 15 (Mié 02/12):** MS Learn PL-300 — *Time Intelligence* (`SAMEPERIODLASTYEAR`) y diseño
+- [ ] **Día 16 (Jue 03/12):** MS Learn PL-300 — Jerarquías visuales, *tooltips* y *bookmarks*
+- [ ] **Día 17 (Vie 04/12):** YouTube Datdata — Replicar dashboard ejecutivo completo
+- [ ] **Día 18 (Sáb 05/12):** **Proyecto 1 Power BI:** *Olist E-Commerce* (limpieza y esquema estrella)
+- [ ] **Día 19 (Lun 07/12):** **Proyecto 1 Power BI:** *Olist E-Commerce* (medidas DAX clave)
+- [ ] **Día 20 (Mar 08/12):** **Proyecto 1 Power BI:** Tablero final de 2 páginas y subida a GitHub
+
+### Fase 3: SQL para Bases de Datos (Días 21–37 · 50 h)
+- [ ] **Día 21 (Mié 09/12):** **Activar DataCamp (90 días gratis)** + *Intro to SQL* + *Intermediate SQL* (Cap. 1)
+- [ ] **Día 22 (Jue 10/12):** DataCamp *Intermediate SQL* (Cap. 2–4: `WHERE`, `GROUP BY`, `HAVING`)
+- [ ] **Día 23 (Vie 11/12):** SQLBolt — Lecciones 1 a 10 sin pistas
+- [ ] **Día 24 (Sáb 12/12):** DataCamp *Joining Data in SQL* (Cap. 1–3: `INNER`, `LEFT`, `FULL JOIN`)
+- [ ] **Día 25 (Lun 14/12):** DataCamp *Joining Data* (Cap. 4: `UNION`) + SQLBolt (Lecciones 11–18)
+- [ ] **Día 26 (Mar 15/12):** DataCamp *Data Manipulation in SQL* (Cap. 1–3: `CASE` y subconsultas)
+- [ ] **Día 27 (Mié 16/12):** DataCamp CTEs (`WITH`) + HackerRank (8 ejercicios *Basic Join*)
+- [ ] **Día 28 (Jue 17/12):** DataCamp *Window Functions* (Cap. 1–3: `ROW_NUMBER`, `RANK`, `LAG`/`LEAD`)
+- [ ] **Día 29 (Vie 18/12):** DataCamp *Window Functions* (Cap. 4) + *Functions in PostgreSQL*
+- [ ] **Día 30 (Sáb 19/12):** DataCamp *Functions in PostgreSQL* (fechas y texto)
+- [ ] **Día 31 (Lun 21/12):** DataCamp *Exploratory Data Analysis in SQL* (Cap. 1–4)
+- [ ] **Día 32 (Mar 22/12):** DataCamp *Data-Driven Decision Making in SQL* (cohortes y `ROLLUP`)
+- [ ] **Día 33 (Mié 23/12):** HackerRank *SQL Intermediate* (8 ejercicios con CTEs y *Window Functions*)
+- [ ] **Día 34 (Jue 24/12):** Proyectos guiados DataCamp (*International Debt* + *Motorcycle Sales*)
+- [ ] **Día 35 (Vie 25/12):** **Proyecto 2 SQL:** *Chinook Music Store* (10 preguntas de negocio)
+- [ ] **Día 36 (Sáb 26/12):** **Proyecto 2 SQL:** Escribir y optimizar las 10 queries
+- [ ] **Día 37 (Lun 28/12 · 2h):** **Proyecto 2 SQL:** Subir scripts y `README.md` a GitHub
+
+### Fase 4: Python para Análisis de Datos (Días 38–50 · 40 h)
+- [ ] **Día 38 (Mar 29/12):** DataCamp *Introduction to Python* (Cap. 1–4 + `NumPy`)
+- [ ] **Día 39 (Mié 30/12):** DataCamp *Intermediate Python* (Cap. 1–4: `matplotlib`, diccionarios, bucles)
+- [ ] **Día 40 (Jue 31/12):** Kaggle Learn — *Python Micro-Course* completo
+- [ ] **Día 41 (Vie 01/01):** DataCamp *Data Manipulation with pandas* (Cap. 1–4: `groupby`, `pivot_table`)
+- [ ] **Día 42 (Sáb 02/01):** DataCamp *Joining Data with pandas* (Cap. 1–4: `merge` y `concat`)
+- [ ] **Día 43 (Lun 04/01):** Kaggle Learn — *Pandas Micro-Course* completo
+- [ ] **Día 44 (Mar 05/01):** DataCamp *Data Visualization with Matplotlib* (Cap. 1–4)
+- [ ] **Día 45 (Mié 06/01):** DataCamp *Data Visualization with Seaborn* (Cap. 1–4)
+- [ ] **Día 46 (Jue 07/01):** DataCamp *Introduction to Statistics in Python* (Cap. 1–4)
+- [ ] **Día 47 (Vie 08/01):** DataCamp *Exploratory Data Analysis in Python* (Cap. 1–4)
+- [ ] **Día 48 (Sáb 09/01):** Proyectos guiados DataCamp (*Netflix Movies* + *NYC School Scores*)
+- [ ] **Día 49 (Lun 11/01):** **Proyecto 3 Python:** EDA y limpieza de *Airbnb Listings*
+- [ ] **Día 50 (Mar 12/01):** **Proyecto 3 Python:** Subir notebook comentado con gráficos a GitHub
+
+### Fase 5: Certificación Oficial, Proyecto Final y Empleo (Días 51–67 · 50 h)
+- [ ] **Día 51 (Mié 13/01):** DataCamp Certificación — Examen cronometrado 1 (SQL)
+- [ ] **Día 52 (Jue 14/01):** DataCamp Certificación — Examen cronometrado 2 (Análisis)
+- [ ] **Día 53 (Vie 15/01):** DataCamp Certificación — *Practical Exam* (limpieza y validación)
+- [ ] **Día 54 (Sáb 16/01):** DataCamp Certificación — *Practical Exam* (gráficos y entrega)
+- [ ] **Día 55 (Lun 18/01):** Simulacro entrevista técnica (SQL bajo reloj + repaso DAX)
+- [ ] **Día 56 (Mar 19/01):** **Proyecto Integrador:** Limpieza de base multi-tabla en Python
+- [ ] **Día 57 (Mié 20/01):** **Proyecto Integrador:** Consultas de cohortes y métricas en SQL
+- [ ] **Día 58 (Jue 21/01):** **Proyecto Integrador:** Esquema estrella y medidas DAX en Power BI
+- [ ] **Día 59 (Vie 22/01):** **Proyecto Integrador:** Dashboard ejecutivo final (2 páginas)
+- [ ] **Día 60 (Sáb 23/01):** GitHub Portfolio — `README.md` profesional y perfil principal
+- [ ] **Día 61 (Lun 25/01):** Optimización LinkedIn + carga de certificados y 3 proyectos
+- [ ] **Día 62 (Mar 26/01):** Bonus Data Science — *Understanding Data Science* (DataCamp)
+- [ ] **Día 63 (Mié 27/01):** Bonus DS — *Supervised Learning with scikit-learn* (Cap. 1–2)
+- [ ] **Día 64 (Jue 28/01):** Bonus DS — *Supervised Learning with scikit-learn* (Cap. 3–4)
+- [ ] **Día 65 (Vie 29/01):** Armado de CV formato ATS de 1 página
+- [ ] **Día 66 (Sáb 30/01):** Pitch de 3 min del proyecto + primeras 8 postulaciones
+- [ ] **Día 67 (Lun 01/02 · 2h):** Cierre del plan — 7 postulaciones + networking IT
+
+---
+
+## 🛠️ 2. Cheat Sheet Técnico (Fórmulas y Comandos Clave)
+
+### 📊 Excel y Power Query
+| Función / Paso | Sintaxis o Ruta | Para qué sirve | Ejemplo / Nota personal |
+| :--- | :--- | :--- | :--- |
+| `BUSCARX` (`XLOOKUP`) | `=BUSCARX(valor; matriz_busq; matriz_dev; [si_no_enc])` | Reemplaza a `BUSCARV`; busca a izquierda o derecha sin romper columnas. | `=BUSCARX(A2; Clientes!A:A; Clientes!C:C; "Sin dato")` |
+| `SI.CONJUNTO` (`IFS`) | `=SI.CONJUNTO(prueba1; val1; prueba2; val2)` | Evalúa múltiples condiciones sin anidar varios `SI`. | Clasificar tickets en Alto / Medio / Bajo. |
+| `ESPACIOS` + `LIMPIAR` | `=ESPACIOS(LIMPIAR(A2))` | Elimina espacios dobles y caracteres no imprimibles. | Usar siempre al importar CSV crudos. |
+| `Unpivot` (Power Query) | *Transformar → Anular dinamización de columnas* | Convierte columnas de meses/fechas en filas ordenadas (formato tabular). | Clave antes de llevar tablas a Power BI. |
+| | | | |
+
+---
+
+### 📈 Power BI y DAX
+| Función DAX | Sintaxis | Concepto / Cuándo usarla | Ejemplo práctico |
+| :--- | :--- | :--- | :--- |
+| `CALCULATE` | `CALCULATE(<expresión>; <filtro1>; ...)` | Modifica el contexto de filtro actual. Es la función más importante de DAX. | `Ventas Online = CALCULATE([Total Ventas]; Canal[Tipo] = "Web")` |
+| `SUMX` | `SUMX(<tabla>; <expresión_fila>)` | Iterador: calcula fila por fila antes de sumar (evita columnas calculadas). | `Ingresos = SUMX(Ventas; Ventas[Cantidad] * Ventas[PrecioUnit])` |
+| `DIVIDE` | `DIVIDE(<numerador>; <denominador>; [alternativo])` | División segura que evita errores `#DIV/0!` devolviendo `BLANK()` o `0`. | `Margen % = DIVIDE([Ganancia]; [Ingresos]; 0)` |
+| `SAMEPERIODLASTYEAR` | `CALCULATE([Ventas]; SAMEPERIODLASTYEAR(Calendario[Fecha]))` | Calcula el valor del mismo período del año anterior (requiere tabla Calendario). | Comparación interanual (YoY). |
+| | | | |
+
+---
+
+### 🗄️ SQL (PostgreSQL / Estándar)
+```sql
+-- 1. Orden de ejecución lógico de una consulta:
+-- FROM -> JOIN -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY -> LIMIT
+
+-- 2. CTE (Common Table Expression) + Window Function (Ranking y variación):
+WITH ventas_mensuales AS (
+    SELECT
+        DATE_TRUNC('month', fecha_orden) AS mes,
+        categoria,
+        SUM(monto) AS total_ventas
+    FROM ordenes
+    WHERE estado = 'Completado'
+    GROUP BY 1, 2
+)
+SELECT
+    mes,
+    categoria,
+    total_ventas,
+    LAG(total_ventas) OVER (PARTITION BY categoria ORDER BY mes) AS ventas_mes_anterior,
+    RANK() OVER (PARTITION BY mes ORDER BY total_ventas DESC) AS ranking_categoria
+FROM ventas_mensuales;
+
+-- [Pegar acá tus queries clave de los Días 21 al 37]
+
+---
+
+### 🐍 Python (`pandas`, `matplotlib`, `seaborn`)
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# 1. Carga e inspección rápida
+df = pd.read_csv("archivo.csv")
+df.info()                      # Tipos de datos y conteo de no-nulos
+df.isna().sum()                # Cantidad de valores faltantes por columna
+df.describe()                  # Estadísticos resumen (media, mediana, cuartiles)
+
+# 2. Limpieza y transformación
+df["fecha"] = pd.to_datetime(df["fecha"])
+df = df.drop_duplicates(subset=["id_orden"])
+df["categoria"] = df["categoria"].str.strip().str.lower()
+
+# 3. Filtrado, agrupación y cruce
+resumen = (
+    df[df["estado"] == "completado"]
+    .groupby("categoria", as_index=False)
+    .agg(ventas_totales=("monto", "sum"), ticket_promedio=("monto", "mean"))
+    .sort_values("ventas_totales", ascending=False)
+)
+
+# [Pegar acá tus snippets de pandas y gráficos de los Días 38 al 50]
+
+
+## 📝 3. Registro Diario (Plantilla base para copiar)
+
+### Día XX — [DD/MM/2026] · Tema: [Tema del día]
+* **Recurso completado:** 
+* **Qué aprendí hoy (en mis palabras):** 
+* **Error o traba que resolví:** 
+* **Primer paso exacto para mañana a las 10:00:**
+
+### Día 01 — [16/11/2026] · Tema: [Data Fundamentals (Completo) + Excel inicio]
+* **Recurso completado: Data Fundamentals.** 
+* **Qué aprendí hoy (en mis palabras):Aprendí como funcionan los datos en el mundo la importancia de estos, las distintas maneras de clasificarlos y visualizarlos y como las empresas pueden sacarle provecho a los datos, en excel aprendi sobre tablas y filtros de los datos.** 
+* **Error o traba que resolví:Ejercicos de practica de Excel**
+* **Primer paso exacto para mañana a las 10:00:Excel finalizar modulo 1**
